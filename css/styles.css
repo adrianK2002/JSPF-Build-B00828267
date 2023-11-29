@@ -1,0 +1,136 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Console", sans-serif; 
+  }
+
+/* Define the section with a background image */
+.image-section {
+    background-image: url('../assets/game_background.jpg'); /* Replace with the path to your background image */
+    align-items: right; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    /* Optionally, set a height for the section if needed */
+    min-height: 200px; /* Adjust the height as needed */
+  }
+  
+  /* Style the navbar */
+  nav {
+    background-color: #333; /* Background color of the navbar */
+    color: white; /* Text color */
+    text-align: right; /* Center-align the contents */
+  }
+  
+  /* Style the container to center its contents */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the logo */
+  .logo img {
+    max-height: 80px; /* Set the maximum height of the logo */
+    
+  }
+  
+  /* Style the navigation list */
+  ul {
+    list-style-type: none; /* Remove list bullets */
+    overflow: hidden; /* Hide overflowing items */
+  }
+  
+  /* Style the list items (menu items) */
+  li {
+    display: inline-block; /* Display menu items inline */
+    margin: 0 10px; /* Add spacing between menu items */
+  }
+  
+  /* Style the links (anchors) */
+  li a {
+    display: block; /* Make the links full-width */
+    padding: 15px 20px; /* Add some padding */
+    text-align: center; /* Center-align the text */
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* Text color */
+  }
+  
+  /* Change link color on hover */
+  li a:hover {
+    background-color: #555; /* Background color on hover */
+  }
+  
+/* Style the centered container */
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Make the container fill the entire viewport height */
+  }
+  
+  /* Style the button */
+  .centered-button {
+    padding: 20px 60px; /* Adjust the padding as needed */
+    background-color: rgba(247, 78, 78, 0.8); /* Background color of the button */
+    color: white; /* Text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show a hand cursor on hover */
+    position:absolute; top:350px;
+  }
+  
+  /* Change button color on hover */
+  .centered-button:hover {
+    background-color: rgba(245, 0, 0, 0.8); /* Background color on hover */
+  }
+
+
+
+.text1 {
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+    height: 70%;
+    position: absolute;
+    transform: translateY(-50%);
+    text-align: right;
+    right:150px;
+}
+
+ /* CSS for the box */
+ .box {
+    width: 400px;
+    height: 40%;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 30px;
+    top:150px;
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+    position: absolute;
+left: 100px
+    }
+
+.box1 {
+    width: 400px;
+    height: 42%;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 30px;
+    top:150px;
+    padding-left: 3rem;
+    margin-bottom: 3rem;
+    position: absolute;
+    left: 1350px
+    }        
